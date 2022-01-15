@@ -292,7 +292,7 @@ get_os() {
                 distro="$distro on Windows 10 [WSL1]"
             fi
 
-            if [[ "$distro" == *"Arch Linux"* ]]; then
+            if [[ "$distro" == "Arch Linux" ]]; then
                 distro="$distro btw"
             fi
         ;;
